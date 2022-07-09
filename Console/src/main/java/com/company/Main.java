@@ -1,8 +1,11 @@
 package com.company;
 
+import com.company.task2.WorkIsVal;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        System.out.println("Hello world!");
+        WorkIsVal workIsVal = new WorkIsVal();
+        workIsVal.example();
+        workIsVal.example2();
     }
 }
